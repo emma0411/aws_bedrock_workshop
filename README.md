@@ -41,7 +41,7 @@ To run the notebooks, make sure you have:
 * The following Python packages installed:
 
   ```bash
-  pip install boto3 botocore pandas matplotlib
+  pip install boto3 botocore pandas matplotlib requests-aws4auth opensearch-py
   ```
 * Correctly configured AWS credentials (`~/.aws/credentials` or environment variables).
 
